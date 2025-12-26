@@ -1,0 +1,19 @@
+#right angle pattern
+x=int(input())
+for i in range(x+1):
+    for j in range(i+1):
+            print("*",end=" ")
+    print()
+#right angle(65)
+x=int(input())
+num=65
+for i in range(x):
+    for j in range(i+1):
+         print(num+j,end=" ")
+    print()
+#right angle(numbers)
+x=int(input())
+for i in range(x):
+    for j in range(i+1):
+        print(j+1,end=" ")
+    print()
